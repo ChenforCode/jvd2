@@ -1,0 +1,101 @@
+package pku.jvd.deseri.core.container;
+
+import cn.hutool.log.Log;
+import cn.hutool.log.LogFactory;
+import lombok.Data;
+import org.springframework.stereotype.Component;
+import pku.jvd.deseri.config.GlobalConfiguration;
+import pku.jvd.deseri.core.data.TabbyRule;
+import pku.jvd.deseri.util.FileUtils;
+
+import java.io.FileNotFoundException;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+@Data
+@Component
+public class RulesContainer {
+    private static final Log log = LogFactory.get(RulesContainer.class);
+
+    private Map<String, TabbyRule> rules = new HashMap<>();
+    private List<String> ignored; // 已经分析过的jar包
+    private List<String> excludedClasses; // 不进行分析的类
+    private List<String> basicClasses; // 消除soot找不到类的错误
+
+    public RulesContainer() throws FileNotFoundException {
+        load();
+        loadIgnore();
+        loadBasicClasses();
+//        loadExcludedClasses();
+    }
+
+    public TabbyRule.Rule getRule(String classname, String method){
+        if(rules.containsKey(classname)){
+            TabbyRule rule = rules.get(classname);
+            if(rule.contains(method)){
+                return rule.getRule(method);
+            }
+        }
+        return null;
+    }
+
+    public TabbyRule getRule(String classname){
+        return rules.getOrDefault(classname, null);
+    }
+
+    public boolean isIgnore(String jar){
+        return ignored.contains(jar);
+    }
+
+    public boolean isType(String classname, String method, String type){
+        if(rules.containsKey(classname)){
+            TabbyRule rule = rules.get(classname);
+            if(rule.contains(method)){
+                TabbyRule.Rule tr = rule.getRule(method);
+                return type.equals(tr.getType());
+            }
+        }
+        return false;
+    }
+
+    @SuppressWarnings({"unchecked"})
+    private void load() throws FileNotFoundException {
+        TabbyRule[] tempRules = (TabbyRule[]) FileUtils.getJsonContent(GlobalConfiguration.KNOWLEDGE_PATH, TabbyRule[].class);
+        if(tempRules == null){
+            throw new FileNotFoundException("Sink File Not Found");
+        }
+        for(TabbyRule rule:tempRules){
+            rule.init();
+            rules.put(rule.getName(), rule);
+        }
+        log.info("load "+ rules.size() +" rules success!");
+    }
+    @SuppressWarnings({"unchecked"})
+    private void loadIgnore(){
+        ignored = (List<String>) FileUtils.getJsonContent(GlobalConfiguration.IGNORE_PATH, List.class);
+        if(ignored == null){
+            ignored = new ArrayList<>();
+        }
+    }
+    @SuppressWarnings({"unchecked"})
+    private void loadBasicClasses(){
+        basicClasses = (List<String>) FileUtils.getJsonContent(GlobalConfiguration.BASIC_CLASSES_PATH, List.class);
+        if(basicClasses == null){
+            basicClasses = new ArrayList<>();
+        }
+    }
+
+    @SuppressWarnings({"unchecked"})
+    private void loadExcludedClasses(){
+        excludedClasses = (List<String>) FileUtils.getJsonContent(GlobalConfiguration.EXCLUDED_CLASS_PATH, List.class);
+        if(excludedClasses == null){
+            excludedClasses = new ArrayList<>();
+        }
+    }
+
+    public void saveStatus(){
+        FileUtils.putJsonContent(GlobalConfiguration.IGNORE_PATH, ignored); // 存储当前以分析的jar包
+    }
+}

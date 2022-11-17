@@ -1,0 +1,1 @@
+java -jar TaintAnalysis-1.0-SNAPSHOT.jar juliet-test-suite-1.2.0.jar cn.chenforcode.testcases.s04.CWE89_SQL_Injection__PropertiesFile_execute_01

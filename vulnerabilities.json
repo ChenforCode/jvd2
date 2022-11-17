@@ -1,0 +1,1200 @@
+{
+  "deserialization": {
+    "source": [
+      {
+        "methodName": "readObject",
+        "className": "java/io/ObjectInputStream",
+        "description": "()Ljava/lang/Object;",
+        "isStatic":"false"
+      },
+      {
+        "methodName": "readUnshared",
+        "className": "java/io/ObjectInputStream",
+        "description": "()Ljava/lang/Object;",
+        "isStatic":"false"
+      },
+      {
+        "methodName": "readObject",
+        "className": "java/beans/XMLDecoder",
+        "description": "()Ljava/lang/Object;",
+        "isStatic":"false"
+      },
+      {
+        "methodName": "fromXML",
+        "className": "com/thoughtworks/xstream/XStream",
+        "description": "(Ljava/lang/String;)Ljava/lang/Object;",
+        "isStatic":"false"
+      },
+      {
+        "methodName": "fromXML",
+        "className": "com/thoughtworks/xstream/XStream",
+        "description": "(Ljava/io/Reader;)Ljava/lang/Object;",
+        "isStatic":"false"
+      },
+      {
+        "methodName": "fromXML",
+        "className": "com/thoughtworks/xstream/XStream",
+        "description": "(Ljava/io/InputStream;)Ljava/lang/Object;",
+        "isStatic":"false"
+      },
+      {
+        "methodName": "fromXML",
+        "className": "com/thoughtworks/xstream/XStream",
+        "description": "(Ljava/net/URL;)Ljava/lang/Object;",
+        "isStatic":"false"
+      },
+      {
+        "methodName": "fromXML",
+        "className": "com/thoughtworks/xstream/XStream",
+        "description": "(Ljava/io/File;)Ljava/lang/Object;",
+        "isStatic":"false"
+      },
+      {
+        "methodName": "fromXML",
+        "className": "com/thoughtworks/xstream/XStream",
+        "description": "(Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/Object;",
+        "isStatic":"false"
+      },
+      {
+        "methodName": "fromXML",
+        "className": "com/thoughtworks/xstream/XStream",
+        "description": "(Ljava/io/Reader;Ljava/lang/Object;)Ljava/lang/Object;",
+        "isStatic":"false"
+      },
+      {
+        "methodName": "fromXML",
+        "className": "com/thoughtworks/xstream/XStream",
+        "description": "(Ljava/net/URL;Ljava/lang/Object;)Ljava/lang/Object;",
+        "isStatic":"false"
+      },
+      {
+        "methodName": "fromXML",
+        "className": "com/thoughtworks/xstream/XStream",
+        "description": "(Ljava/io/File;Ljava/lang/Object;)Ljava/lang/Object;",
+        "isStatic":"false"
+      },
+      {
+        "methodName": "fromXML",
+        "className": "com/thoughtworks/xstream/XStream",
+        "description": "(Ljava/io/InputStream;Ljava/lang/Object;)Ljava/lang/Object;",
+        "isStatic":"false"
+      },
+
+      {
+        "methodName": "toXML",
+        "className": "com/thoughtworks/xstream/XStream",
+        "description": "(Ljava/lang/Object;)Ljava/lang/String;",
+        "isStatic":"false"
+      },
+      {
+        "methodName": "toXML",
+        "className": "com/thoughtworks/xstream/XStream",
+        "description": "(Ljava/lang/Object;Ljava/io/Writer;)V",
+        "isStatic":"false"
+      },
+      {
+        "methodName": "toXML",
+        "className": "com/thoughtworks/xstream/XStream",
+        "description": "(Ljava/lang/Object;Ljava/io/OutputStream;)V",
+        "isStatic":"false"
+      },
+      {
+        "methodName": "load",
+        "className": "org/yaml/snakeyaml/Yaml",
+        "description": "(Ljava/lang/String;)Ljava/lang/Object;",
+        "isStatic":"false"
+      },
+      {
+        "methodName": "load",
+        "className": "org/yaml/snakeyaml/Yaml",
+        "description": "(Ljava/io/InputStream;)Ljava/lang/Object;",
+        "isStatic":"false"
+      },
+      {
+        "methodName": "load",
+        "className": "org/yaml/snakeyaml/Yaml",
+        "description": "(Ljava/io/Reader;)Ljava/lang/Object;",
+        "isStatic":"false"
+      },
+      {
+        "methodName": "loadAs",
+        "className": "org/yaml/snakeyaml/Yaml",
+        "description": "(Ljava/io/Reader;Ljava/lang/Class;)Ljava/lang/Object;",
+        "isStatic":"false"
+      },
+      {
+        "methodName": "loadAs",
+        "className": "org/yaml/snakeyaml/Yaml",
+        "description": "(Ljava/lang/String;Ljava/lang/Class;)Ljava/lang/Object;",
+        "isStatic":"false"
+      },
+      {
+        "methodName": "loadAs",
+        "className": "org/yaml/snakeyaml/Yaml",
+        "description": "(Ljava/io/InputStream;Ljava/lang/Class;)Ljava/lang/Object;",
+        "isStatic":"false"
+      },
+      {
+        "methodName": "loadFromReader",
+        "className": "org/yaml/snakeyaml/Yaml",
+        "description": "(Lorg/yaml/snakeyaml/reader/StreamReader;Ljava/lang/Class;)Ljava/lang/Object;",
+        "isStatic":"false"
+      },
+      {
+        "methodName": "loadAll",
+        "className": "org/yaml/snakeyaml/Yaml",
+        "description": "(Ljava/io/Reader;)Ljava/lang/Iterable;",
+        "isStatic":"false"
+      },
+      {
+        "methodName": "loadAll",
+        "className": "org/yaml/snakeyaml/Yaml",
+        "description": "(Ljava/lang/String;)Ljava/lang/Iterable;",
+        "isStatic":"false"
+      },
+      {
+        "methodName": "loadAll",
+        "className": "org/yaml/snakeyaml/Yaml",
+        "description": "(Ljava/io/InputStream;)Ljava/lang/Iterable;",
+        "isStatic":"false"
+      },
+      {
+        "methodName": "parseObject",
+        "className": "jdk/nashorn/internal/parser/JSONParser",
+        "description": "()Ljava/lang/Object;",
+        "isStatic":"false"
+      }
+    ],
+    "sink": [
+      {
+        "methodName": "transform",
+        "className": "javax/xml/transform/Transformer",
+        "description": "(Ljavax/xml/transform/Source;Ljavax/xml/transform/Result;)V",
+        "isStatic":"false"
+      },
+      {
+        "methodName": "transform",
+        "className": "org/apache/commons/collections/functors/InvokerTransformer",
+        "description": "(Ljava/lang/Object;)Ljava/lang/Object;",
+        "isStatic":"false"
+      },
+      {
+        "methodName": "transform",
+        "className": "org/apache/commons/collections/functors/ChainedTransformer",
+        "description": "(Ljava/lang/Object;)Ljava/lang/Object;",
+        "isStatic":"false"
+      },
+      {
+        "methodName": "transform",
+        "className": "org/apache/commons/collections/functors/ConstantTransformer",
+        "description": "(Ljava/lang/Object;)Ljava/lang/Object;",
+        "isStatic":"false"
+      },
+      {
+        "methodName": "exec",
+        "className": "java/lang/Runtime",
+        "description": "(Ljava/lang/String;)Ljava/lang/Process;",
+        "isStatic":"false"
+      },
+      {
+        "methodName": "exec",
+        "className": "java/lang/Runtime",
+        "description": "(Ljava/lang/String;[Ljava/lang/String;)Ljava/lang/Process;",
+        "isStatic":"false"
+      },
+      {
+        "methodName": "exec",
+        "className": "java/lang/Runtime",
+        "description": "(Ljava/lang/String;[Ljava/lang/String;Ljava/io/File;)Ljava/lang/Process;",
+        "isStatic":"false"
+      },
+      {
+        "methodName": "exec",
+        "className": "java/lang/Runtime",
+        "description": "([Ljava/lang/String;)Ljava/lang/Process;",
+        "isStatic":"false"
+      },
+      {
+        "methodName": "exec",
+        "className": "java/lang/Runtime",
+        "description": "([Ljava/lang/String;[Ljava/lang/String;)Ljava/lang/Process;",
+        "isStatic":"false"
+      },
+      {
+        "methodName": "exec",
+        "className": "java/lang/Runtime",
+        "description": "([Ljava/lang/String;[Ljava/lang/String;Ljava/io/File;)Ljava/lang/Process;",
+        "isStatic":"false"
+      },
+      {
+        "methodName": "start",
+        "className": "java/lang/ProcessBuilder",
+        "description": "()Ljava/lang/Process;",
+        "isStatic":"false"
+      }
+    ]
+  },
+  "SQL": {
+    "source": [
+      {
+        "methodName": "getParameter()",
+        "className": "Ljavax/servlet/http/HttpServletRequest",
+        "description": "(java/lang/String;)java/lang/String;",
+        "isStatic":"false"
+      },
+      {
+        "methodName": "getParameterValues()",
+        "className": "Ljavax/servlet/http/HttpServletRequest",
+        "description": "(java/lang/String;)java/lang/String[];",
+        "isStatic":"false"
+      },
+      {
+        "methodName": "getParameterNames()",
+        "className": "Ljavax/servlet/http/HttpServletRequest",
+        "description": "()java/util/Enumeration<java/lang/String>;",
+        "isStatic":"false"
+      },
+      {
+        "methodName": "getQueryString()",
+        "className": "Ljavax/servlet/http/HttpServletRequest",
+        "description": "()Ljava/lang/String;",
+        "isStatic":"false"
+      },
+      {
+        "methodName": "getParameterMap()",
+        "className": "Ljavax/servlet/http/HttpServletRequest",
+        "description": "()java/util/Map<java/lang/String,java/lang/String[]>;",
+        "isStatic":"false"
+      },
+      {
+        "methodName": "getRequestedSessionId()",
+        "className": "Ljavax/servlet/http/HttpServletRequest",
+        "description": "()java/lang/String;",
+        "isStatic":"false"
+      }
+    ],
+    "sink": [
+      {
+        "methodName": "executeQuery",
+        "className": "java/sql/Statement",
+        "description": "(Ljava/lang/String;)Ljava/sql/ResultSet;",
+        "isStatic":"false"
+      },
+      {
+        "methodName": "execute",
+        "className": "java/sql/Statement",
+        "description": "(Ljava/lang/String;)Z",
+        "isStatic":"false"
+      },
+      {
+        "methodName": "execute",
+        "className": "java/sql/Statement",
+        "description": "(Ljava/lang/String;I)Z",
+        "isStatic":"false"
+      },
+      {
+        "methodName": "execute",
+        "className": "java/sql/Statement",
+        "description": "(Ljava/lang/String;[I)Z",
+        "isStatic":"false"
+      },
+      {
+        "methodName": "execute",
+        "className": "java/sql/Statement",
+        "description": "(Ljava/lang/String;[Ljava/lang/String;)Z",
+        "isStatic":"false"
+      },
+      {
+        "methodName": "executeUpdate()",
+        "className": "java/sql/Statement",
+        "description": "(Ljava/lang/String;)I",
+        "isStatic":"false"
+      },
+      {
+        "methodName": "executeUpdate()",
+        "className": "java/sql/Statement",
+        "description": "(Ljava/lang/String;I)I",
+        "isStatic":"false"
+      },
+      {
+        "methodName": "executeUpdate()",
+        "className": "java/sql/Statement",
+        "description": "(Ljava/lang/String;[I)I",
+        "isStatic":"false"
+      },
+      {
+        "methodName": "executeUpdate",
+        "className": "java/sql/Statement",
+        "description": "(Ljava/lang/String;[Ljava/lang/String;)I",
+        "isStatic":"false"
+      },
+      {
+        "methodName": "executeLargeUpdate()",
+        "className": "java/sql/Statement",
+        "description": "(Ljava/lang/String;)J",
+        "isStatic":"false"
+      },
+      {
+        "methodName": "executeLargeUpdate()",
+        "className": "java/sql/Statement",
+        "description": "(Ljava/lang/String;I)J",
+        "isStatic":"false"
+      },
+      {
+        "methodName": "executeLargeUpdate()",
+        "className": "java/sql/Statement",
+        "description": "(Ljava/lang/String;[I)J",
+        "isStatic":"false"
+      },
+      {
+        "methodName": "executeLargeUpdate",
+        "className": "java/sql/Statement",
+        "description": "(Ljava/lang/String;[Ljava/lang/String;)J",
+        "isStatic":"false"
+      },
+      {
+        "methodName": "addBatch",
+        "className": "java/sql/Statement",
+        "description": "(Ljava/lang/String;)V",
+        "isStatic":"false"
+      },
+      {
+        "methodName": "executeBatch",
+        "className": "java/sql/Statement",
+        "description": "()[I",
+        "isStatic":"false"
+      },
+      {
+        "methodName": "executeLargeBatch",
+        "className": "java/sql/Statement",
+        "description": "()[J",
+        "isStatic":"false"
+      }
+    ],
+    "purify": [
+      {
+        "methodName": "executeQuery()",
+        "className": "java/sql/PreparedStatement",
+        "description": "()Ljava/sql/ResultSet;",
+        "isStatic":"false"
+      },
+      {
+        "methodName": "execute()",
+        "className": "java/sql/PreparedStatement",
+        "description": "()Z",
+        "isStatic":"false"
+      },
+      {
+        "methodName": "executeUpdate()",
+        "className": "java/sql/PreparedStatement",
+        "description": "()I",
+        "isStatic":"false"
+      },
+      {
+        "methodName": "PreparedStatement.addBatch()",
+        "className": "java/sql/PreparedStatement",
+        "description": "()V",
+        "isStatic":"false"
+      },
+      {
+        "methodName": "replaceAll()",
+        "className": "java/lang/String",
+        "description": "(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;",
+        "isStatic":"false"
+      },
+      {
+        "methodName": "replace()",
+        "className": "java/lang/String",
+        "description": "(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Ljava/lang/String;",
+        "isStatic":"false"
+      },
+      {
+        "methodName": "decode()",
+        "className": "java/io/ObjectInputStream",
+        "description": "()Ljava/lang/Object;",
+        "isStatic":"false"
+      }
+    ],
+    "transmission": [
+      {
+        "methodName": "toString",
+        "className": "java/lang/String",
+        "description": "()Ljava/lang/String;",
+        "isStatic":"false"
+      },
+      {
+        "methodName": "concat",
+        "className": "java/lang/String",
+        "description": "(Ljava/lang/String;)Ljava/lang/String;",
+        "isStatic":"false"
+      },
+      {
+        "methodName": "substring",
+        "className": "java/lang/String",
+        "description": "(I)Ljava/lang/String;",
+        "isStatic":"false"
+      },
+      {
+        "methodName": "substring",
+        "className": "java/lang/String",
+        "description": "(II)Ljava/lang/String;",
+        "isStatic":"false"
+      },
+      {
+        "methodName": "toString()",
+        "className": "java/lang/StringBuffer",
+        "description": "()Ljava/lang/String;",
+        "isStatic":"false"
+      }
+    ]
+  },
+  "XSS": {
+    "source": [
+      {
+        "methodName": "getParameter()",
+        "className": "Ljavax/servlet/http/HttpServletRequest",
+        "description": "(java/lang/String;)java/lang/String;",
+        "isStatic":"false"
+      },
+      {
+        "methodName": "getParameterValues()",
+        "className": "Ljavax/servlet/http/HttpServletRequest",
+        "description": "(java/lang/String;)java/lang/String[];",
+        "isStatic":"false"
+      },
+      {
+        "methodName": "getParameterNames()",
+        "className": "Ljavax/servlet/http/HttpServletRequest",
+        "description": "()java/util/Enumeration<java/lang/String>;",
+        "isStatic":"false"
+      },
+      {
+        "methodName": "getHeader()",
+        "className": "Ljavax/servlet/http/HttpServletRequest",
+        "description": "(java/lang/String;)java/lang/String;",
+        "isStatic":"false"
+      },
+      {
+        "methodName": "getAttribute()",
+        "className": "Ljavax/servlet/http/HttpServletRequest",
+        "description": "(java/lang/String;)Ljava/lang/Object;",
+        "isStatic":"false"
+      },
+      {
+        "methodName": "getParameterMap()",
+        "className": "Ljavax/servlet/http/HttpServletRequest",
+        "description": "()java/util/Map;",
+        "isStatic":"false"
+      },
+      {
+        "methodName": "getQueryString()",
+        "className": "Ljavax/servlet/http/HttpServletRequest",
+        "description": "()Ljava/lang/String;",
+        "isStatic":"false"
+      },
+      {
+        "methodName": "getInputStream()",
+        "className": "Ljavax/servlet/http/HttpServletRequest",
+        "description": "()Ljava/io/ObjectInput;",
+        "isStatic":"false"
+      },
+      {
+        "methodName": "getCookies()",
+        "className": "Ljavax/servlet/http/HttpServletRequest",
+        "description": "()Ljava/util/List;",
+        "isStatic":"false"
+      }
+    ],
+    "sink": [
+      {
+        "methodName": "print",
+        "className": "java/io/PrintWriter",
+        "description": "(I)V",
+        "isStatic":"false"
+      },
+      {
+        "methodName": "print",
+        "className": "java/io/PrintWriter",
+        "description": "(Z)V",
+        "isStatic":"false"
+      },
+      {
+        "methodName": "print",
+        "className": "java/io/PrintWriter",
+        "description": "(C)V",
+        "isStatic":"false"
+      },
+      {
+        "methodName": "print",
+        "className": "java/io/PrintWriter",
+        "description": "(J)V",
+        "isStatic":"false"
+      },
+      {
+        "methodName": "print",
+        "className": "java/io/PrintWriter",
+        "description": "(F)V",
+        "isStatic":"false"
+      },
+      {
+        "methodName": "print",
+        "className": "java/io/PrintWriter",
+        "description": "(D)V",
+        "isStatic":"false"
+      },
+      {
+        "methodName": "print",
+        "className": "java/io/PrintWriter",
+        "description": "([C)V",
+        "isStatic":"false"
+      },
+      {
+        "methodName": "print",
+        "className": "java/io/PrintWriter",
+        "description": "(Ljava/lang/String;)V",
+        "isStatic":"false"
+      },
+      {
+        "methodName": "print",
+        "className": "java/io/PrintWriter",
+        "description": "(Ljava/lang/Object;)V",
+        "isStatic":"false"
+      },
+      {
+        "methodName": "println",
+        "className": "java/io/PrintWriter",
+        "description": "()V",
+        "isStatic":"false"
+      },
+      {
+        "methodName": "println",
+        "className": "java/io/PrintWriter",
+        "description": "(I)V",
+        "isStatic":"false"
+      },
+      {
+        "methodName": "println",
+        "className": "java/io/PrintWriter",
+        "description": "(Z)V",
+        "isStatic":"false"
+      },
+      {
+        "methodName": "println",
+        "className": "java/io/PrintWriter",
+        "description": "(C)V",
+        "isStatic":"false"
+      },
+      {
+        "methodName": "println",
+        "className": "java/io/PrintWriter",
+        "description": "(J)V",
+        "isStatic":"false"
+      },
+      {
+        "methodName": "println",
+        "className": "java/io/PrintWriter",
+        "description": "(F)V",
+        "isStatic":"false"
+      },
+      {
+        "methodName": "println",
+        "className": "java/io/PrintWriter",
+        "description": "(D)V",
+        "isStatic":"false"
+      },
+      {
+        "methodName": "println",
+        "className": "java/io/PrintWriter",
+        "description": "([C)V",
+        "isStatic":"false"
+      },
+      {
+        "methodName": "println",
+        "className": "java/io/PrintWriter",
+        "description": "(Ljava/lang/String;)V",
+        "isStatic":"false"
+      },
+      {
+        "methodName": "println",
+        "className": "java/io/PrintWriter",
+        "description": "(Ljava/lang/Object;)V",
+        "isStatic":"false"
+      },
+      {
+        "methodName": "write()",
+        "className": "java/io/DataOutput",
+        "description": "(I)V",
+        "isStatic":"false"
+      },
+      {
+        "methodName": "write()",
+        "className": "java/io/DataOutput",
+        "description": "([B)V",
+        "isStatic":"false"
+      },
+      {
+        "methodName": "write()",
+        "className": "java/io/DataOutput",
+        "description": "([BII)V",
+        "isStatic":"false"
+      },
+      {
+        "methodName": "write()",
+        "className": "java/io/ObjectOutputStream",
+        "description": "(I)V",
+        "isStatic":"false"
+      },
+      {
+        "methodName": "write()",
+        "className": "java/io/ObjectOutputStream",
+        "description": "([B)V",
+        "isStatic":"false"
+      },
+      {
+        "methodName": "write()",
+        "className": "java/io/ObjectOutputStream",
+        "description": "([BII)V",
+        "isStatic":"false"
+      }
+    ],
+    "purify": [
+      {
+        "methodName": "escapeJava",
+        "className": "org/apache/commons/lang3/StringEscapeUtils",
+        "description": "(Ljava/lang/String;)Ljava/lang/String;",
+        "isStatic":"false"
+      },
+      {
+        "methodName": "escapeEcmaScript",
+        "className": "org/apache/commons/lang3/StringEscapeUtils",
+        "description": "(Ljava/lang/String;)Ljava/lang/String;",
+        "isStatic":"false"
+      },
+      {
+        "methodName": "escapeJson",
+        "className": "org/apache/commons/lang3/StringEscapeUtils",
+        "description": "(Ljava/lang/String;)Ljava/lang/String;",
+        "isStatic":"false"
+      },
+
+      {
+        "methodName": "escapeHtml4",
+        "className": "org/apache/commons/lang3/StringEscapeUtils",
+        "description": "(Ljava/lang/String;)Ljava/lang/String;",
+        "isStatic":"false"
+      },
+
+      {
+        "methodName": "escapeHtml3",
+        "className": "org/apache/commons/lang3/StringEscapeUtils",
+        "description": "(Ljava/lang/String;)Ljava/lang/String;",
+        "isStatic":"false"
+      },
+      {
+        "methodName": "escapeXml",
+        "className": "org/apache/commons/lang3/StringEscapeUtils",
+        "description": "(Ljava/lang/String;)Ljava/lang/String;",
+        "isStatic":"false"
+      },
+      {
+        "methodName": "escapeXml10",
+        "className": "org/apache/commons/lang3/StringEscapeUtils",
+        "description": "(Ljava/lang/String;)Ljava/lang/String;",
+        "isStatic":"false"
+      },
+      {
+        "methodName": "escapeXml11",
+        "className": "org/apache/commons/lang3/StringEscapeUtils",
+        "description": "(Ljava/lang/String;)Ljava/lang/String;",
+        "isStatic":"false"
+      },
+      {
+        "methodName": "escapeCsv",
+        "className": "org/apache/commons/lang3/StringEscapeUtils",
+        "description": "(Ljava/lang/String;)Ljava/lang/String;",
+        "isStatic":"false"
+      },
+
+
+      {
+        "methodName": "htmlEscape",
+        "className": "com/coverity/security/EscapeEL",
+        "description": "(Ljava/lang/String;)Ljava/lang/String;",
+        "isStatic":"true"
+      },
+      {
+        "methodName": "htmlText",
+        "className": "com/coverity/security/EscapeEL",
+        "description": "(Ljava/lang/String;)Ljava/lang/String;",
+        "isStatic":"true"
+      },
+      {
+        "methodName": "uriParamEncode",
+        "className": "com/coverity/security/EscapeEL",
+        "description": "(Ljava/lang/String;)Ljava/lang/String;",
+        "isStatic":"true"
+      },
+      {
+        "methodName": "uriEncode",
+        "className": "com/coverity/security/EscapeEL",
+        "description": "(Ljava/lang/String;)Ljava/lang/String;",
+        "isStatic":"true"
+      },
+      {
+        "methodName": "jsStringEscape",
+        "className": "com/coverity/security/EscapeEL",
+        "description": "(Ljava/lang/String;)Ljava/lang/String;",
+        "isStatic":"true"
+      },
+      {
+        "methodName": "cssStringEscape()",
+        "className": "com/coverity/security/EscapeEL",
+        "description": "(Ljava/lang/String;)Ljava/lang/String;",
+        "isStatic":"true"
+      },
+      {
+        "methodName": "jsRegexEscape()",
+        "className": "com/coverity/security/EscapeEL",
+        "description": "(Ljava/lang/String;)Ljava/lang/String;",
+        "isStatic":"true"
+      },
+
+      {
+        "methodName": "asCssColor",
+        "className": "com/coverity/security/FilterEL",
+        "description": "(Ljava/lang/String;)Ljava/lang/String;",
+        "isStatic":"true"
+      },
+      {
+        "methodName": "asCssColorDefault",
+        "className": "com/coverity/security/FilterEL",
+        "description": "(Ljava/lang/String;)Ljava/lang/String;",
+        "isStatic":"true"
+      },
+      {
+        "methodName": "asURL",
+        "className": "com/coverity/security/FilterEL",
+        "description": "(Ljava/lang/String;)Ljava/lang/String;",
+        "isStatic":"true"
+      },
+      {
+        "methodName": "asFlexibleURL",
+        "className": "com/coverity/security/FilterEL",
+        "description": "Ljava/lang/String;)Ljava/lang/String;",
+        "isStatic":"true"
+      },
+      {
+        "methodName": "asNumber",
+        "className": "com/coverity/security/FilterEL",
+        "description": "(Ljava/lang/String;)Ljava/lang/String;",
+        "isStatic":"true"
+      },
+      {
+        "methodName": "asNumberDefault",
+        "className": "com/coverity/security/FilterEL",
+        "description": "(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;",
+        "isStatic":"true"
+      },
+
+
+      {
+        "methodName": "encodeForHTML",
+        "className": "org/owasp/esapi/Encoder",
+        "description": "(Ljava/lang/String;)Ljava/lang/String;",
+        "isStatic":"false"
+      },
+      {
+        "methodName": "encodeForHTMLAttribute",
+        "className": "org/owasp/esapi/Encoder",
+        "description": "(Ljava/lang/String;)Ljava/lang/String;",
+        "isStatic":"false"
+      },
+      {
+        "methodName": "encodeForCSS",
+        "className": "org/owasp/esapi/Encoder",
+        "description": "(Ljava/lang/String;)Ljava/lang/String;",
+        "isStatic":"false"
+      },
+      {
+        "methodName": "encodeForJavaScript",
+        "className": "org/owasp/esapi/Encoder",
+        "description": "(Ljava/lang/String;)Ljava/lang/String;",
+        "isStatic":"false"
+      },
+      {
+        "methodName": "encodeForVBScript",
+        "className": "org/owasp/esapi/Encoder",
+        "description": "(Ljava/lang/String;)Ljava/lang/String;",
+        "isStatic":"false"
+      },
+      {
+        "methodName": "encodeForSQL",
+        "className": "org/owasp/esapi/Encoder",
+        "description": "(Lorg/owasp/esapi/codecs/Codec;Ljava/lang/String;)Ljava/lang/String;",
+        "isStatic":"false"
+      },
+      {
+        "methodName": "encodeForOS",
+        "className": "org/owasp/esapi/Encoder",
+        "description": "(Lorg/owasp/esapi/codecs/Codec;Ljava/lang/String;)Ljava/lang/String;",
+        "isStatic":"false"
+      },
+      {
+        "methodName": "encodeForLDAP",
+        "className": "org/owasp/esapi/Encoder",
+        "description": "(Ljava/lang/String;)Ljava/lang/String;",
+        "isStatic":"false"
+      },
+      {
+        "methodName": "encodeForLDAP",
+        "className": "org/owasp/esapi/Encoder",
+        "description": "(Ljava/lang/String;Z)Ljava/lang/String;",
+        "isStatic":"false"
+      },
+      {
+        "methodName": "encodeForDN",
+        "className": "org/owasp/esapi/Encoder",
+        "description": "(Ljava/lang/String;)Ljava/lang/String;",
+        "isStatic":"false"
+      },
+      {
+        "methodName": "encodeForXPath",
+        "className": "org/owasp/esapi/Encoder",
+        "description": "(Ljava/lang/String;)Ljava/lang/String;",
+        "isStatic":"false"
+      },
+      {
+        "methodName": "encodeForXML",
+        "className": "org/owasp/esapi/Encoder",
+        "description": "(Ljava/lang/String;)Ljava/lang/String;",
+        "isStatic":"false"
+      },
+      {
+        "methodName": "encodeForXMLAttribute",
+        "className": "org/owasp/esapi/Encoder",
+        "description": "(Ljava/lang/String;)Ljava/lang/String;",
+        "isStatic":"false"
+      },
+      {
+        "methodName": "encodeForURL",
+        "className": "org/owasp/esapi/Encoder",
+        "description": "(Ljava/lang/String;)Ljava/lang/String;",
+        "isStatic":"false"
+      },
+      {
+        "methodName": "encodeForBase64",
+        "className": "org/owasp/esapi/Encoder",
+        "description": "([BZ)Ljava/lang/String;",
+        "isStatic":"false"
+      },
+      {
+        "methodName": "forHtmlContent",
+        "className": "org/owasp/encoder/Encode",
+        "description": "(Ljava/lang/String;)Ljava/lang/String;",
+        "isStatic":"true"
+      },
+      {
+        "methodName": "forHtmlContent",
+        "className": "org/owasp/encoder/Encode",
+        "description": "(Ljava/io/Writer;Ljava/lang/String;)V",
+        "isStatic":"true"
+      },
+      {
+        "methodName": "forHtml",
+        "className": "org/owasp/encoder/Encode",
+        "description": "(Ljava/lang/String;)Ljava/lang/String;",
+        "isStatic":"true"
+      },
+      {
+        "methodName": "forHtml",
+        "className": "org/owasp/encoder/Encode",
+        "description": "(Ljava/io/Writer;Ljava/lang/String;)V",
+        "isStatic":"true"
+      },
+      {
+        "methodName": "forHtmlAttribute",
+        "className": "org/owasp/encoder/Encode",
+        "description": "(Ljava/lang/String;)Ljava/lang/String;",
+        "isStatic":"true"
+      },
+      {
+        "methodName": "forHtmlAttribute",
+        "className": "org/owasp/encoder/Encode",
+        "description": "(Ljava/io/Writer;Ljava/lang/String;)V",
+        "isStatic":"true"
+      },
+      {
+        "methodName": "forHtmlUnquotedAttribute",
+        "className": "org/owasp/encoder/Encode",
+        "description": "(Ljava/lang/String;)Ljava/lang/String;",
+        "isStatic":"true"
+      },
+      {
+        "methodName": "forHtmlUnquotedAttribute",
+        "className": "org/owasp/encoder/Encode",
+        "description": "(Ljava/io/Writer;Ljava/lang/String;)V",
+        "isStatic":"true"
+      },
+      {
+        "methodName": "forCssString",
+        "className": "org/owasp/encoder/Encode",
+        "description": "(Ljava/lang/String;)Ljava/lang/String;",
+        "isStatic":"true"
+      },
+      {
+        "methodName": "forCssString",
+        "className": "org/owasp/encoder/Encode",
+        "description": "(Ljava/io/Writer;Ljava/lang/String;)V",
+        "isStatic":"true"
+      },
+      {
+        "methodName": "forCssUrl",
+        "className": "org/owasp/encoder/Encode",
+        "description": "(Ljava/lang/String;)Ljava/lang/String;",
+        "isStatic":"true"
+      },
+      {
+        "methodName": "forCssUrl",
+        "className": "org/owasp/encoder/Encode",
+        "description": "(Ljava/io/Writer;Ljava/lang/String;)V",
+        "isStatic":"true"
+      },
+      {
+        "methodName": "forUri",
+        "className": "org/owasp/encoder/Encode",
+        "description": "(Ljava/lang/String;)Ljava/lang/String;",
+        "isStatic":"true"
+      },
+      {
+        "methodName": "forUri",
+        "className": "org/owasp/encoder/Encode",
+        "description": "(Ljava/io/Writer;Ljava/lang/String;)V",
+        "isStatic":"true"
+      },
+      {
+        "methodName": "forUriComponent",
+        "className": "org/owasp/encoder/Encode",
+        "description": "(Ljava/lang/String;)Ljava/lang/String;",
+        "isStatic":"true"
+      },
+      {
+        "methodName": "forUriComponent",
+        "className": "org/owasp/encoder/Encode",
+        "description": "(Ljava/io/Writer;Ljava/lang/String;)V",
+        "isStatic":"true"
+      },
+      {
+        "methodName": "forXml",
+        "className": "org/owasp/encoder/Encode",
+        "description": "(Ljava/lang/String;)Ljava/lang/String;",
+        "isStatic":"true"
+      },
+      {
+        "methodName": "forXml",
+        "className": "org/owasp/encoder/Encode",
+        "description": "(Ljava/io/Writer;Ljava/lang/String;)V",
+        "isStatic":"true"
+      },
+      {
+        "methodName": "forXmlContent",
+        "className": "org/owasp/encoder/Encode",
+        "description": "(Ljava/lang/String;)Ljava/lang/String;",
+        "isStatic":"true"
+      },
+      {
+        "methodName": "forXmlContent",
+        "className": "org/owasp/encoder/Encode",
+        "description": "(Ljava/io/Writer;Ljava/lang/String;)V",
+        "isStatic":"true"
+      },
+      {
+        "methodName": "forXmlAttribute",
+        "className": "org/owasp/encoder/Encode",
+        "description": "(Ljava/lang/String;)Ljava/lang/String;",
+        "isStatic":"true"
+      },
+      {
+        "methodName": "forXmlAttribute",
+        "className": "org/owasp/encoder/Encode",
+        "description": "(Ljava/io/Writer;Ljava/lang/String;)V",
+        "isStatic":"true"
+      },
+      {
+        "methodName": "forXmlComment",
+        "className": "org/owasp/encoder/Encode",
+        "description": "(Ljava/lang/String;)Ljava/lang/String;",
+        "isStatic":"true"
+      },
+      {
+        "methodName": "forXmlComment",
+        "className": "org/owasp/encoder/Encode",
+        "description": "(Ljava/io/Writer;Ljava/lang/String;)V",
+        "isStatic":"true"
+      },
+      {
+        "methodName": "forCDATA",
+        "className": "org/owasp/encoder/Encode",
+        "description": "(Ljava/lang/String;)Ljava/lang/String;",
+        "isStatic":"true"
+      },
+      {
+        "methodName": "forCDATA",
+        "className": "org/owasp/encoder/Encode",
+        "description": "(Ljava/io/Writer;Ljava/lang/String;)V",
+        "isStatic":"true"
+      },
+      {
+        "methodName": "forJava",
+        "className": "org/owasp/encoder/Encode",
+        "description": "(Ljava/lang/String;)Ljava/lang/String;",
+        "isStatic":"true"
+      },
+      {
+        "methodName": "forJava",
+        "className": "org/owasp/encoder/Encode",
+        "description": "(Ljava/io/Writer;Ljava/lang/String;)V",
+        "isStatic":"true"
+      },
+      {
+        "methodName": "forJavaScript",
+        "className": "org/owasp/encoder/Encode",
+        "description": "(Ljava/lang/String;)Ljava/lang/String;",
+        "isStatic":"true"
+      },
+      {
+        "methodName": "forJavaScript",
+        "className": "org/owasp/encoder/Encode",
+        "description": "(Ljava/io/Writer;Ljava/lang/String;)V",
+        "isStatic":"true"
+      },
+      {
+        "methodName": "forJavaScriptAttribute",
+        "className": "org/owasp/encoder/Encode",
+        "description": "(Ljava/lang/String;)Ljava/lang/String;",
+        "isStatic":"true"
+      },
+      {
+        "methodName": "forJavaScriptAttribute",
+        "className": "org/owasp/encoder/Encode",
+        "description": "(Ljava/io/Writer;Ljava/lang/String;)V",
+        "isStatic":"true"
+      },
+      {
+        "methodName": "forJavaScriptBlock",
+        "className": "org/owasp/encoder/Encode",
+        "description": "(Ljava/lang/String;)Ljava/lang/String;",
+        "isStatic":"true"
+      },
+      {
+        "methodName": "forJavaScriptBlock",
+        "className": "org/owasp/encoder/Encode",
+        "description": "(Ljava/io/Writer;Ljava/lang/String;)V",
+        "isStatic":"true"
+      },
+      {
+        "methodName": "forJavaScriptSource",
+        "className": "org/owasp/encoder/Encode",
+        "description": "(Ljava/lang/String;)Ljava/lang/String;",
+        "isStatic":"true"
+      },
+      {
+        "methodName": "forJavaScriptSource",
+        "className": "org/owasp/encoder/Encode",
+        "description": "(Ljava/io/Writer;Ljava/lang/String;)V",
+        "isStatic":"true"
+      }
+    ],
+    "transmission": [
+      {
+        "methodName": "append()",
+        "className": "java/lang/String",
+        "description": "()Ljava/lang/Object;",
+        "isStatic":"false"
+      },
+      {
+        "methodName": "toString",
+        "className": "java/lang/String",
+        "description": "()Ljava/lang/String;",
+        "isStatic":"false"
+      },
+      {
+        "methodName": "getConnection()",
+        "className": "java/sql/DriverManager",
+        "description": "(Ljava/lang/String;Ljava/util/Properties;)Ljava/sql/Connection;",
+        "isStatic":"false"
+      },
+      {
+        "methodName": "getConnection()",
+        "className": "java/sql/DriverManager",
+        "description": "(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/sql/Connection;",
+        "isStatic":"false"
+      },
+      {
+        "methodName": "getConnection",
+        "className": "java/sql/DriverManager",
+        "description": "(Ljava/lang/String;)Ljava/sql/Connection;",
+        "isStatic":"false"
+      },
+      {
+        "methodName": "setString",
+        "className": "java/sql/PreparedStatement",
+        "description": "(ILjava/lang/String;)V",
+        "isStatic":"false"
+      },
+      {
+        "methodName": "executeUpdate",
+        "className": "java/sql/Statement",
+        "description": "(Ljava/lang/String;)I",
+        "isStatic":"false"
+      },
+      {
+        "methodName": "executeUpdate",
+        "className": "java/sql/Statement",
+        "description": "(Ljava/lang/String;I)I",
+        "isStatic":"false"
+      },
+      {
+        "methodName": "executeUpdate",
+        "className": "java/sql/Statement",
+        "description": "(Ljava/lang/String;[I)I",
+        "isStatic":"false"
+      },
+      {
+        "methodName": "executeUpdate",
+        "className": "java/sql/Statement",
+        "description": "(Ljava/lang/String;[Ljava/lang/String;)I",
+        "isStatic":"false"
+      },
+      {
+        "methodName": "updateString()",
+        "className": "java/sql/ResultSet",
+        "description": "(ILjava/lang/String;)V",
+        "isStatic":"false"
+      },
+      {
+        "methodName": "updateString()",
+        "className": "java/sql/ResultSet",
+        "description": "(Ljava/lang/String;Ljava/lang/String;)V",
+        "isStatic":"false"
+      },
+      {
+        "methodName": "createStatement()",
+        "className": "java/sql/Connection",
+        "description": "()Ljava/sql/Statement;",
+        "isStatic":"false"
+      },
+      {
+        "methodName": "createStatement()",
+        "className": "java/sql/Connection",
+        "description": "(II)Ljava/sql/Statement;",
+        "isStatic":"false"
+      },
+      {
+        "methodName": "createStatement()",
+        "className": "java/sql/Connection",
+        "description": "(III)Ljava/sql/Statement;",
+        "isStatic":"false"
+      }
+    ]
+  }
+}
